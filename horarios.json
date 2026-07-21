@@ -1,0 +1,2749 @@
+{
+  "profesores": {
+    "FERNANDEZ RODRIGUEZ MARIA LUZ": {
+      "departamento": "ARTES PLÁSTICAS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Atención Educativa", "aula": "E22 E21" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Dibujo Técnico I", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E12" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E13" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Dibujo Técnico I", "aula": "B12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Atención Educativa", "aula": "E22 E21" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E13" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Dibujo Técnico I", "aula": "B12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN APP", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E13" },
+          "13:30 - 14:20": { "tipo": "reunion", "asignatura": "Tutoría de Grupo", "aula": "E11" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Dibujo Técnico I", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Dibujo Técnico I", "aula": "B12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E12" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E13" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E11" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Dibujo Técnico I", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Dibujo Técnico I", "aula": "B12" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN APP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E12" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "Tutoría de Grupo", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E11" }
+        }
+      }
+    },
+    "MAES BONAL AMELIA": {
+      "departamento": "ARTES PLÁSTICAS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E31 E33" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Expresión Artística", "aula": "E41 E43 E42" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Dibujo Técnico II", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E32" },
+          "13:30 - 14:20": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E32" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Dibujo Técnico II", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Expresión Artística", "aula": "E41 E43 E42" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Dibujo Técnico II", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E31 E33" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN APP", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E31 E33" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E31 E33" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Dibujo Técnico II", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E31 E33" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN APP", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Dibujo Técnico II", "aula": "B23" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Dibujo Técnico II", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E32" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN APP", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E31 E33" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Plástica, Visual y Audiovisual", "aula": "E31 E33" }
+        }
+      }
+    },
+    "CALVO RAMOS MARIA BELEN": {
+      "departamento": "CIENCIAS NATURALES",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Biología", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Ciencias aplicadas II", "aula": "IF2" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Anatomía Aplicada", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Anatomía Aplicada", "aula": "B12" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Atención Educativa", "aula": "E11 E12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Biología", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Ciencias aplicadas II", "aula": "IF2" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Ciencias aplicadas II", "aula": "IF2" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Anatomía Aplicada", "aula": "B12" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Ciencias aplicadas II", "aula": "IF2" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Biología", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN CN", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Anatomía Aplicada", "aula": "B12" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Ciencias aplicadas II", "aula": "IF2" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Biología", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Biología", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Anatomía Aplicada", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Ciencias aplicadas II", "aula": "IF2" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Biología", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Biología", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Anatomía Aplicada", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Anatomía Aplicada", "aula": "B12" }
+        }
+      }
+    },
+    "GARCIA GOMEZ MARIA EMMA": {
+      "departamento": "CIENCIAS NATURALES",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E41 E43" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E33" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E42" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN CN", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E41 E43" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Ciencias aplicadas I", "aula": "IF1" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E42" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E41 E43" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E41 E43" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Ciencias aplicadas I", "aula": "IF1" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E42" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E41 E43" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E41 E44" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E42" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E42" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Ciencias aplicadas I", "aula": "IF1" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E42" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E33" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E42" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E42" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E41 E44" }
+        }
+      }
+    },
+    "GIMENO HERNANZ ANA ISABEL": {
+      "departamento": "CIENCIAS NATURALES",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Biología Geología y C. Ambien.", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E12" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E13" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E13" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E32" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Biología Geología y C. Ambien.", "aula": "B12" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN CN", "aula": "" },
+          "13:30 - 14:20": { "tipo": "reunion", "asignatura": "Tutoría de Grupo", "aula": "E13" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E13" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Biología Geología y C. Ambien.", "aula": "B12" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E32" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E13" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología Geología y C. Ambien.", "aula": "B12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Biología Geología y C. Ambien.", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E11" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E13" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Biología Geología y C. Ambien.", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E12" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E32" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Biología y Geología", "aula": "E11" }
+        }
+      }
+    },
+    "BULLON HERRERO MARIA TERESA": {
+      "departamento": "ECONOMÍA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E43" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2ª y 4ª", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Itin. pers. para empleabilidad", "aula": "IF1" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Iniciación Emprendedora y E.", "aula": "E31 E33" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E41" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Economía", "aula": "B11" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Economía", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E41" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E43" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Economía", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E41" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Iniciación Emprendedora y E.", "aula": "E31 E33" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Itin. pers. para empleabilidad", "aula": "IF1" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN ECO", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E43" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E41" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E41" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E43" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Economía y Emprendimiento", "aula": "E43" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Economía", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Economía", "aula": "B11" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "JIMENEZ RODRIGUEZ RAMON": {
+      "departamento": "ECONOMÍA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Empresa y Diseño de Mod. Nego.", "aula": "B21 B22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Empresa y Diseño de Mod. Nego.", "aula": "B21 B22" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Itin. pers. para empleab. II", "aula": "SM2" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Empresa y Diseño de Mod. Nego.", "aula": "B21 B22" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Fundam. de Administ. Y Gest.", "aula": "B21 B22" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Itin. pers. para empleab. I", "aula": "SM1" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Itin. pers. para empleab. I", "aula": "SM1" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Educación Financiera", "aula": "E41 E43" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Fundam. de Administ. Y Gest.", "aula": "B21 B22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Itin. pers. para empleab. II", "aula": "SM2" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Empresa y Diseño de Mod. Nego.", "aula": "B21 B22" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Empresa y Diseño de Mod. Nego.", "aula": "B21 B22" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Educación Financiera", "aula": "E41 E43" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN ECO", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Itin. pers. para empleab. I", "aula": "SM1" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Itin. pers. para empleab. I", "aula": "SM1" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Itin. pers. para empleab. I", "aula": "SM1" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Empresa y Diseño de Mod. Nego.", "aula": "B21 B22" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Fundam. de Administ. Y Gest.", "aula": "B21 B22" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Fundam. de Administ. Y Gest.", "aula": "B21 B22" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN ECO", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Fundam. de Administ. Y Gest.", "aula": "B21 B22" }
+        }
+      }
+    },
+    "CARNERO MARCOS VALENTIN": {
+      "departamento": "EDUCACIÓN FÍSICA Y DEPORTIVA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E42" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN EF", "aula": "" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E41" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E43" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Ciencias aplicadas I", "aula": "IF1" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E21" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E22" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E41" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E43" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E22" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E43" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E22" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E42" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E22" }
+        }
+      }
+    },
+    "GASCON COLORADO JORGE": {
+      "departamento": "EDUCACIÓN FÍSICA Y DEPORTIVA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN EF", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E33" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "B12" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Ciencias aplicadas II", "aula": "IF2" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E13" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E32" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Educación Física", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E13" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "B12" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E33" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E13" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Educación Física", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E13" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Educación Física", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Educación Física", "aula": "E13" }
+        }
+      }
+    },
+    "BOYERO SERRANO JESUS": {
+      "departamento": "FAMILIA PROFESIONAL DE INFORMATICA Y COMUNICACIONES",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Innovac. apl. s.productivo(GM)", "aula": "SM1" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN IFC", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión Equipo Directivo", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Sistemas operativos en red", "aula": "SM2" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN IFC", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Sistemas operativos en red", "aula": "SM2" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Sistemas operativos en red", "aula": "SM2" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN IFC", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Sistemas operativos en red", "aula": "SM2" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "DE ILDEFONSO GARCIA DIEGO": {
+      "departamento": "FAMILIA PROFESIONAL DE INFORMATICA Y COMUNICACIONES",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Mtje. Y Mto. Equipo", "aula": "SM2" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Mtje. Y Mto. Equipo", "aula": "SM2" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN IFC", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores FP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Mtje. Y Mto. Equipo", "aula": "SM2" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Mtje. Y Mto. Equipo", "aula": "SM2" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Mtje. Y Mto. Equipo", "aula": "SM2" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Mtje. Y Mto. Equipo", "aula": "SM2" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Mtje. Y Mto. Equipo", "aula": "SM2" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Mtje. Y Mto. Equipo", "aula": "SM2" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Mtje. Y Mto. Equipo", "aula": "SM2" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Mtje. Y Mto. Equipo", "aula": "SM2" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Equi Eléctricos y Electrónicos", "aula": "IF1" }
+        }
+      }
+    },
+    "GÓMEZ GONZÁLEZ MANUEL ANTONIO": {
+      "departamento": "FAMILIA PROFESIONAL DE INFORMATICA Y COMUNICACIONES",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Seguridad informática", "aula": "SM2" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Redes locales", "aula": "SM1" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN IFC", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Seguridad informática", "aula": "SM2" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Redes locales", "aula": "SM1" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Redes locales", "aula": "SM1" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Seguridad informática", "aula": "SM2" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Seguridad informática", "aula": "SM2" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Programación informática", "aula": "E41 E43 E42" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Programación informática", "aula": "E41 E43 E42" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Programación informática", "aula": "E41 E43 E42" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Redes locales", "aula": "SM1" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Programación informática", "aula": "E41 E43 E42" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Redes locales", "aula": "SM1" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Seguridad informática", "aula": "SM2" }
+        }
+      }
+    },
+    "HERNANDEZ CALVO CARLOS": {
+      "departamento": "FAMILIA PROFESIONAL DE INFORMATICA Y COMUNICACIONES",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Servicios en red", "aula": "SM2" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN IFC", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Sostenib. apl. al sis. prod.", "aula": "SM2" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Servicios en red", "aula": "SM2" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Dig. apl. sec. productivos GM", "aula": "SM2" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Aplicaciones web", "aula": "SM1" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Aplicaciones web", "aula": "SM1" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Aplicaciones web", "aula": "SM1" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Aplicaciones web", "aula": "SM1" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Servicios en red", "aula": "SM2" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Aplicaciones web", "aula": "SM1" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "MADRID BAUTISTA MANUEL": {
+      "departamento": "FAMILIA PROFESIONAL DE INFORMATICA Y COMUNICACIONES",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores FP", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "MARTÍNEZ NAVARRO DANIEL": {
+      "departamento": "FAMILIA PROFESIONAL DE INFORMATICA Y COMUNICACIONES",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "IF2" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN IFC", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Instal. y mantenimiento de red", "aula": "IF2" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Instal. y mantenimiento de red", "aula": "IF2" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores FP", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Instal. y mantenimiento de red", "aula": "IF2" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Instal. y mantenimiento de red", "aula": "IF2" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Instal. y mantenimiento de red", "aula": "IF2" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Instal. y mantenimiento de red", "aula": "IF2" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "TELLEZ DE MENESES MARTIN CARLOS DAVID": {
+      "departamento": "FAMILIA PROFESIONAL DE INFORMATICA Y COMUNICACIONES",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores FP", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Sistemas operativos monopuesto", "aula": "SM1" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN IFC", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Operación config. y explotac.", "aula": "IF2" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Fundamentos de programación", "aula": "SM2" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Fundamentos de programación", "aula": "SM2" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Fundamentos de programación", "aula": "SM2" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Sistemas operativos monopuesto", "aula": "SM1" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Sistemas operativos monopuesto", "aula": "SM1" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Fundamentos de programación", "aula": "SM2" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Sistemas operativos monopuesto", "aula": "SM1" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Fundamentos de programación", "aula": "SM2" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "GONZALEZ SANZ PALOMA": {
+      "departamento": "FILOSOFÍA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B21" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Filosofía", "aula": "B11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Filosofía", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Atención Educativa", "aula": "E13" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Valores Cívicos y Éticos", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN FI", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores bachillerato", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Filosofía", "aula": "B11" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B21" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN FI", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B21" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Filosofía", "aula": "B11" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores bachillerato", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Filosofía", "aula": "B11" }
+        }
+      }
+    },
+    "TEIRA LAFUENTE JAVIER BERNARD": {
+      "departamento": "FILOSOFÍA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Filosofía", "aula": "B12" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Filosofía", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Valores Cívicos y Éticos", "aula": "E32" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN FI", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Valores Cívicos y Éticos", "aula": "E33" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Atención Educativa", "aula": "E32 E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B22" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Taller de Filosofía", "aula": "E41 E43 E42" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B22" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Taller de Filosofía", "aula": "E41 E43 E42" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Taller de Filosofía", "aula": "E41 E43 E42" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B23" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Taller de Filosofía", "aula": "E41 E43 E42" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de la Filosofía", "aula": "B22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Filosofía", "aula": "B12" }
+        }
+      }
+    },
+    "FUENTE BLANCO JESUS A. DE LA": {
+      "departamento": "FÍSICA Y QUÍMICA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E42" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2º y 4º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E42" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Química", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E42" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Química", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E24" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Química", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Química", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN FQ", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E42" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Química", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Laboratorio de Ciencias", "aula": "E42" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E42" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Química", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Química", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Laboratorio de Ciencias", "aula": "E42" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN FQ", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "MARTIN ALONSO M. HUMILDAD": {
+      "departamento": "FÍSICA Y QUÍMICA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E43" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores bachillerato", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "B12" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E43" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Física y Química", "aula": "B12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E43" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN FQ", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Física y Química", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E43" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN FQ", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Física y Química", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "B12" }
+        }
+      }
+    },
+    "SANCHEZ HERNANDEZ AITANA": {
+      "departamento": "FÍSICA Y QUÍMICA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E32" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Física", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E23" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Física", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Física", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E22" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E33" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN FQ", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E33" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E33" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E23" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Física", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E32" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Física y Química", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "BOYERO MARTIN JULIA": {
+      "departamento": "FRANCÉS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E41 E43 E4" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés II", "aula": "B22" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E24 E21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E24 E21" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés II", "aula": "B22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Atención Educativa", "aula": "E23 E24" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E24 E21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E24 E21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés II", "aula": "B22" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E41 E43 E4" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Atención Educativa", "aula": "E23 E24" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E24 E21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E24 E21" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN FR", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E23" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés II", "aula": "B22" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E41 E43 E4" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés II", "aula": "B22" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E23" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés II", "aula": "B22" }
+        }
+      }
+    },
+    "SANCHEZ RAMOS SALVADOR": {
+      "departamento": "FRANCÉS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E13" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E32 E31 E3" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E32 E31 E3" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés I", "aula": "B12 B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés I", "aula": "B12 B11" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN FR", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Atención Educativa", "aula": "E41 E42" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E13" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "2 Lengua Extranjera: Francés", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés I", "aula": "B12 B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E24" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés I", "aula": "B12 B11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E41" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés I", "aula": "B12 B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E24" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "2ª Leng. Extranj.: Francés I", "aula": "B12 B11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E41" }
+        }
+      }
+    },
+    "CASTAÑO PANCHUELO ALVARO": {
+      "departamento": "GEOGRAFÍA E HISTORIA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E32" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia del Mundo Contemp.", "aula": "B11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Historia del Mundo Contemp.", "aula": "B11" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Historia del Mundo Contemp.", "aula": "B11" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN GE", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Historia del Mundo Contemp.", "aula": "B11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E32" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Historia del Mundo Contemp.", "aula": "B11" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Historia del Mundo Contemp.", "aula": "B11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E32" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Historia del Mundo Contemp.", "aula": "B11" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Historia del Mundo Contemp.", "aula": "B11" }
+        }
+      }
+    },
+    "DOPICO CALVO FRANCISCO RAMON": {
+      "departamento": "GEOGRAFÍA E HISTORIA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B23" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B22" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2ª y 4ª", "aula": "" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B23" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN GE", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E42" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B23" },
+          "13:30 - 14:20": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E42" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E21" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E42" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B22" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Historia de España", "aula": "B23" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E42" }
+        }
+      }
+    },
+    "INGELMO FRA IRENE": {
+      "departamento": "GEOGRAFÍA E HISTORIA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E13" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Historia del Arte", "aula": "B21" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia", "aula": "B21 B22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia", "aula": "B21 B22" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia del Arte", "aula": "B21" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN GE", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores bachillerato", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Historia del Arte", "aula": "B21" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia del Arte", "aula": "B21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Historia del Arte", "aula": "B21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E13" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia", "aula": "B21 B22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia", "aula": "B21 B22" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia del Arte", "aula": "B21" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN GE", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E13" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Historia del Arte", "aula": "B21" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Historia del Arte", "aula": "B21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Historia del Arte", "aula": "B21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E13" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia", "aula": "B21 B22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia", "aula": "B21 B22" }
+        }
+      }
+    },
+    "MIGUELEZ BLAZQUEZ SILVIA": {
+      "departamento": "GEOGRAFÍA E HISTORIA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E22" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E22" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E23" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E43" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E24" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E43" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2º y 4º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E43" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E23" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E24" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN GE", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E24" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E43" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E23" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E43" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E24" }
+        }
+      }
+    },
+    "SANCHEZ SANCHEZ MARTA ANARBELL": {
+      "departamento": "GEOGRAFÍA E HISTORIA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E33" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E33" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Atención Educativa", "aula": "E43" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión Equipo Directivo", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E33" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores FP", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores bachillerato", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E33" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN GE", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Geografia e Historia", "aula": "E31" }
+        }
+      }
+    },
+    "CEREZO PRIETO JOSE ANTONIO": {
+      "departamento": "INGLÉS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés profesional (GM)", "aula": "SM1" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN IN", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés I", "aula": "B11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E11" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés profesional (GM)", "aula": "SM1" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E32" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E32" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés I", "aula": "B11" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés I", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés I", "aula": "B11" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés I", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés I", "aula": "B11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés I", "aula": "B11" }
+        }
+      }
+    },
+    "CIVERA BLANCO MARIA TAMARA": {
+      "departamento": "INGLÉS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Comunicación y c. sociales I", "aula": "IF1" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Comunicación y c. sociales I", "aula": "IF1" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B23" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E24" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B22" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores bachillerato", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B22" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN IN", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B21" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés", "aula": "E24" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Comunicación y c. sociales I", "aula": "IF1" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN IN", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés II", "aula": "B21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Comunicación y c. sociales I", "aula": "IF1" }
+        }
+      }
+    },
+    "RODRIGUEZ HIDALGO M. VICTORIA": {
+      "departamento": "INGLÉS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión Equipo Directivo", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E33" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E12" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E33" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN IN", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E12" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E33" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés", "aula": "E33" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E12" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E33" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E33" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés", "aula": "E33" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E12" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E33" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E33" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés", "aula": "E33" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E12" }
+        }
+      }
+    },
+    "RODRÍGUEZ MARTÍN ALBERTO": {
+      "departamento": "INGLÉS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés I", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E21" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés", "aula": "E43" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E43" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E22" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés", "aula": "E23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E22" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN IN", "aula": "" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E43" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés I", "aula": "B12" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E23" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E43" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés I", "aula": "B12" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E23" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" }
+        }
+      }
+    },
+    "SANCHEZ PASCUAL INES": {
+      "departamento": "INGLÉS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Comunicación y c. sociales II", "aula": "IF2" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E13" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E42" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E42" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Comunicación y c. sociales II", "aula": "IF2" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2º y 4º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E13" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E41DIV" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Comunicación y c. sociales II", "aula": "IF2" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E42" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN IN", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Comunicación y c. sociales II", "aula": "IF2" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E13" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E13" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E42" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E13" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Inglés", "aula": "E13" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Inglés", "aula": "E41" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Inglés", "aula": "E42" }
+        }
+      }
+    },
+    "GARCIA HERNANDEZ MARIA JESUS": {
+      "departamento": "LATÍN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Latín I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN LA", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Latín II", "aula": "B21 B22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E21" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Latín I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Latín I", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Latín", "aula": "E41 E43" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Latín II", "aula": "B21 B22" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Latín I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E22" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Latín II", "aula": "B21 B22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Latín", "aula": "E41 E43" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Latín II", "aula": "B21 B22" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Latín I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E22" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Latín", "aula": "E41 E43" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Latín II", "aula": "B21 B22" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Latín I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Latín I", "aula": "B11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Latín II", "aula": "B21 B22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Latín", "aula": "E41 E43" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Latín II", "aula": "B21 B22" }
+        }
+      }
+    },
+    "JIMENEZ CASTAÑARES JOSE MANUEL": {
+      "departamento": "LATÍN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Latín", "aula": "E41 E43" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN LA", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E24" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Latín", "aula": "E41 E43" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2ª y 4ª", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E23" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "Tutoría de Grupo", "aula": "E23" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Latín", "aula": "E41 E43" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E41 E43" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E24" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E41 E43" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E24" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E41 E43" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Latín", "aula": "E41 E43" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cultura Clásica", "aula": "E24" }
+        }
+      }
+    },
+    "ZANGRANDO VALENTINA": {
+      "departamento": "LATÍN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Griego I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Griego II", "aula": "B21" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN LA", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión Equipo Directivo", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Griego I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Griego I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Griego II", "aula": "B21" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Griego I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Griego I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Griego II", "aula": "B21" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Griego I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Griego I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Griego II", "aula": "B21" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Griego II", "aula": "B21" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Griego I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Griego I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Griego II", "aula": "B21" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Griego II", "aula": "B21" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "ARANEGA RIVAS MIRIAN": {
+      "departamento": "LENGUA CASTELLANA Y LITERATURA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Biblioteca", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E21" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B22" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B21" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E21" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B22" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E21" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B22" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B21" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN LC", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B22" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B21" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat.II", "aula": "B23" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E21" }
+        }
+      }
+    },
+    "EGIDO ESPINOZA BEATRIZ": {
+      "departamento": "LENGUA CASTELLANA Y LITERATURA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua", "aula": "E41" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E24" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E42" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E42" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua", "aula": "E24" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E42" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E43" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E24" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E42" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN LC", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E43" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua", "aula": "E41" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E24" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E42" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E43" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Biblioteca", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E24" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E42" }
+        }
+      }
+    },
+    "GARCIA BENITO VERONICA": {
+      "departamento": "LENGUA CASTELLANA Y LITERATURA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B12" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E21" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B12" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B11" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E21" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B11" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E21" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Biblioteca", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN LC", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B11" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E21" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Biblioteca", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B12" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua Castellana y Literat. I", "aula": "B11" }
+        }
+      }
+    },
+    "GARCIA TESO LUCIA": {
+      "departamento": "LENGUA CASTELLANA Y LITERATURA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E13" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua", "aula": "E13" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E23" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E12" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E13" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E13" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E13" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E22" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E12" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E13" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E22" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E13" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua", "aula": "E23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E23" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Biblioteca", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E22" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E13" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua", "aula": "E23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E22" }
+        }
+      }
+    },
+    "HERNANDEZ GARCIA NOELIA": {
+      "departamento": "LENGUA CASTELLANA Y LITERATURA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E33" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua", "aula": "E11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E32" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E31" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua", "aula": "E33" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cono. Lenguaje", "aula": "E31" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E33" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E32" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Biblioteca", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E32" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E33" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Lengua", "aula": "E11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Lengua", "aula": "E32" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Lengua", "aula": "E11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Lengua", "aula": "E32" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Lengua", "aula": "E33" }
+        }
+      }
+    },
+    "ORIHUELA MARTIN ANGELA": {
+      "departamento": "LENGUA CASTELLANA Y LITERATURA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Biblioteca", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN LC", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E31" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Literatura Universal", "aula": "B11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Amb. lingüístico y social", "aula": "E41" }
+        }
+      }
+    },
+    "BODEGO SANCHEZ M. ANGELES": {
+      "departamento": "MATEMÁTICAS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas II", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas II", "aula": "B23" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E13" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas II", "aula": "B23" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas II", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN MA", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E13" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E12" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E13" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E31" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E31" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E12" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E12" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E31" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E31" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E13" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E13" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E31" }
+        }
+      }
+    },
+    "GRANDE SANCHEZ IGNACIO VICENT": {
+      "departamento": "MATEMÁTICAS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E23" },
+          "09:25 - 10:15": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas A", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas A", "aula": "E41" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas A", "aula": "E41" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN MA", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E23" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E23" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas A", "aula": "E41" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas A", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E21" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas A", "aula": "E41" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E21" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E21" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas A", "aula": "E41" }
+        }
+      }
+    },
+    "HUIDOBRO DEL ARCO SUSANA": {
+      "departamento": "MATEMÁTICAS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E24" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E22" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS II", "aula": "B21 B22" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores bachillerato", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS II", "aula": "B21 B22" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E24" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E22" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN MA", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS II", "aula": "B21 B22" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS II", "aula": "B21 B22" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E22" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS II", "aula": "B21 B22" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS II", "aula": "B21 B22" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS II", "aula": "B21 B22" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E24" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E24" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS II", "aula": "B21 B22" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E22" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E24" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS II", "aula": "B21 B22" }
+        }
+      }
+    },
+    "INFANTE BLAZQUEZ JORGE": {
+      "departamento": "MATEMÁTICAS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas I", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E32 E31" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN MA", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas I", "aula": "B12" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas I", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E32 E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas I", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E32 E31" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas I", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E32 E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas I", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E32 E31" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas I", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E32 E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas I", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E32 E31" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS I", "aula": "B11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas Aplicadas CCSS I", "aula": "B11" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas I", "aula": "B12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E32 E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas I", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E32 E31" }
+        }
+      }
+    },
+    "RECUNA CARRASCO MARTA": {
+      "departamento": "MATEMÁTICAS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E33" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E32" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E11" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E33" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E33" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E32" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN MA", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E11" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E33" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E32" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E11" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E33" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E32" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E11" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E32" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E33" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E12" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E32" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E11" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas", "aula": "E11" }
+        }
+      }
+    },
+    "VILLARDON HERRERO SILVIA": {
+      "departamento": "MATEMÁTICAS",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2ª y 4ª", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Matemáticas B", "aula": "E42" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión Equipo Directivo", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas B", "aula": "E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas B", "aula": "E43" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Matemáticas B", "aula": "E43" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN MA", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas B", "aula": "E42" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas B", "aula": "E43" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas B", "aula": "E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas B", "aula": "E42" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Cono. Matemáticas", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Matemáticas B", "aula": "E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Matemáticas B", "aula": "E42" }
+        }
+      }
+    },
+    "ARCO JIMENEZ CRISTINA": {
+      "departamento": "MÚSICA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Música", "aula": "E31 E33" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Música", "aula": "E24" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Música", "aula": "E22" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN MU", "aula": "" },
+          "13:30 - 14:20": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E22" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2º y 4º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Música", "aula": "E23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Música", "aula": "E23" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Música", "aula": "E23" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Música", "aula": "E24" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Música", "aula": "E24" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Música", "aula": "E31 E33" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Música", "aula": "E31 E33" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Música", "aula": "E22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Música", "aula": "E22" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Música", "aula": "E24" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Música", "aula": "E24" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Música", "aula": "E31 E33" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Música", "aula": "E22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Música", "aula": "E22" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Música", "aula": "E31 E33" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Música", "aula": "E24" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Música", "aula": "E22" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Música", "aula": "E31 E33" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Música", "aula": "E22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Música", "aula": "E22" }
+        }
+      }
+    },
+    "PASCUAL MUÑOZ MIQUEL": {
+      "departamento": "MÚSICA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Música", "aula": "E21" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Música", "aula": "E41 E43 E42" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Música", "aula": "E21" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Taller de expresión musical", "aula": "E31 E33" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN MU", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Taller de expresión musical", "aula": "E31 E33" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2ª y 4ª", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Música", "aula": "E21" },
+          "11:40 - 12:30": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Música", "aula": "E41 E43 E42" },
+          "13:30 - 14:20": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E21" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Música", "aula": "E21" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Música", "aula": "E41 E43 E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Taller de expresión musical", "aula": "E31 E33" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Música", "aula": "E21" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Música", "aula": "E41 E43 E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Taller de expresión musical", "aula": "E31 E33" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Música", "aula": "E21" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Música", "aula": "E41 E43 E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Taller de expresión musical", "aula": "E31 E33" }
+        }
+      }
+    },
+    "AMORES GARCIA MARIA JESUS": {
+      "departamento": "ORIENTACIÓN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Psicología", "aula": "B21 B22" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Psicología", "aula": "B21 B22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Psicología", "aula": "B21 B22" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Form. y Orien. Pers. y Prof.", "aula": "E41" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores bachillerato", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Form. y Orien. Pers. y Prof.", "aula": "E41" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Psicología", "aula": "B21 B22" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Psicología", "aula": "B21 B22" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Psicología", "aula": "B21 B22" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "AVILA GONZALEZ MARIA ANTONIA": {
+      "departamento": "ORIENTACIÓN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores FP", "aula": "" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2ª y 4ª", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Psicología", "aula": "B23" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Psicología", "aula": "B23" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores FP", "aula": "" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2ª y 4ª", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Psicología", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Psicología", "aula": "B23" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores FP", "aula": "" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 2ª y 4ª", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Psicología", "aula": "B23" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "JUNQUERA HERNANDEZ NATIVIDAD": {
+      "departamento": "ORIENTACIÓN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "", "asignatura": "", "aula": "" }
+        }
+      }
+    },
+    "MOLINA TERREN JOSE": {
+      "departamento": "ORIENTACIÓN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E31DIV" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Amb. científico-tecnológico", "aula": "E41" }
+        }
+      }
+    },
+    "REDONDO LOPEZ RAQUEL": {
+      "departamento": "ORIENTACIÓN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión ED Orientación", "aula": "" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        }
+      }
+    },
+    "SANCHEZ SANCHEZ ROSA": {
+      "departamento": "ORIENTACIÓN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "", "asignatura": "", "aula": "" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN DO", "aula": "" },
+          "12:35 - 13:25": { "tipo": "", "asignatura": "", "aula": "" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        }
+      }
+    },
+    "GARCIA GONZALEZ MARIA AMPARO": {
+      "departamento": "RELIGIÓN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Religión", "aula": "E43" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Religión", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E13" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E22" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN REL", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Religión", "aula": "E42" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Religión", "aula": "E32" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E24" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E22" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN REL", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Religión", "aula": "E42" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E33" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E24" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Religión", "aula": "E22" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Religión", "aula": "E33" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN REL", "aula": "" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Religión", "aula": "E42" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Religión", "aula": "E32" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E24" }
+        }
+      }
+    },
+    "RODRIGUEZ BOYERO JOSE MARIA BLAS": {
+      "departamento": "RELIGIÓN",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Religión Católica", "aula": "B12 B11" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN Reunión de proyectos", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Religión", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Religión", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E23" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Religión Católica", "aula": "B12 B11" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN REL", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Religión", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Religión", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E23" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E21" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN REL", "aula": "" },
+          "10:20 - 11:10": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Religión", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Religión", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E23" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN REL", "aula": "" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Religión Católica", "aula": "B12 B11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Religión", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Religión", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E23" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN REL", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Religión", "aula": "E21" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Religión", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Religión", "aula": "E23" }
+        }
+      }
+    },
+    "ALVAREZ MARTIN JOAQUIN VICENT": {
+      "departamento": "TECNOLOGÍA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. I", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. I", "aula": "B12" },
+          "10:20 - 11:10": { "tipo": "reunion", "asignatura": "REUNIÓN CCP", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Ambito Práctico", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería I", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. II", "aula": "B23" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. I", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Ambito Práctico", "aula": "E41" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. II", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Ambito Práctico", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. II", "aula": "B23" },
+          "13:30 - 14:20": { "tipo": "guardia", "asignatura": "GUARDIA Guardias de aula", "aula": "" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. I", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "", "asignatura": "", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería I", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería I", "aula": "B12" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. I", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN TC", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería I", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. II", "aula": "B23" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. I", "aula": "B12" },
+          "09:25 - 10:15": { "tipo": "", "asignatura": "", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Ambito Práctico", "aula": "E41" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería I", "aula": "B12" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Tecnolog. de la Inf. y Com. II", "aula": "B23" }
+        }
+      }
+    },
+    "PRIETO MARTIN JESUS MANUEL": {
+      "departamento": "TECNOLOGÍA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería II", "aula": "B23" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Tecnología", "aula": "E43 E42" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería II", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Control y Robótica", "aula": "E32 E33" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E13" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Control y Robótica", "aula": "E32 E33" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E13" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería II", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería II", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología", "aula": "E43 E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Ambito Práctico", "aula": "E31" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E12" },
+          "09:25 - 10:15": { "tipo": "reunion", "asignatura": "REUNIÓN Tutores 1º y 3º", "aula": "" },
+          "10:20 - 11:10": { "tipo": "", "asignatura": "", "aula": "" },
+          "11:40 - 12:30": { "tipo": "reunion", "asignatura": "REUNIÓN TC", "aula": "" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E13" },
+          "13:30 - 14:20": { "tipo": "reunion", "asignatura": "Tutoria de Grupo", "aula": "E12" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E13" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería II", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería II", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología", "aula": "E43 E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Ambito Práctico", "aula": "E31" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E13" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E12" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería II", "aula": "B23" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Tecnología e Ingeniería II", "aula": "B23" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología", "aula": "E43 E42" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Ambito Práctico", "aula": "E31" }
+        }
+      }
+    },
+    "VELASCO HERNÁNDEZ SANTIAGO": {
+      "departamento": "TECNOLOGÍA",
+      "horario": {
+        "Lunes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E32" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E11" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "reunion", "asignatura": "REUNIÓN TC", "aula": "" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E31" }
+        },
+        "Martes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E32" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E33" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E33" }
+        },
+        "Miércoles": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E32" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E33" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E33" }
+        },
+        "Jueves": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E32" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E33" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E33" }
+        },
+        "Viernes": {
+          "08:30 - 09:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E11" },
+          "09:25 - 10:15": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E32" },
+          "10:20 - 11:10": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E33" },
+          "11:40 - 12:30": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E31" },
+          "12:35 - 13:25": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E31" },
+          "13:30 - 14:20": { "tipo": "clase", "asignatura": "Tecnología y Digitalización", "aula": "E33" }
+        }
+      }
+    }
+  }
+}

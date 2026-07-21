@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parte de Guardias · IES Vía de la Plata</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F6F4EE;
+    --paper-raised:#FFFFFF;
+    --ink:#1E2A38;
+    --ink-soft:#5B6B7A;
+    --navy:#1E3A5F;
+    --navy-deep:#132840;
+    --amber:#C9932B;
+    --amber-soft:#F3E3C2;
+    --teal:#3E7873;
+    --teal-soft:#DCEBE8;
+    --coral:#B84B3E;
+    --coral-soft:#F4DEDA;
+    --line:#DCD6C8;
+    --radius:10px;
+    --shadow: 0 1px 2px rgba(30,42,56,.06), 0 6px 20px -8px rgba(30,42,56,.15);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:"";
+    position:fixed; inset:0;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 48px 48px;
+    opacity:.35;
+    pointer-events:none;
+    z-index:0;
+  }
+  .stage{ position:relative; z-index:1; min-height:100vh; display:flex; flex-direction:column; }
+
+  h1,h2,h3{ font-family:'Source Serif 4', Georgia, serif; margin:0; letter-spacing:-0.01em; }
+  .mono{ font-family:'JetBrains Mono', monospace; letter-spacing:0.02em; }
+
+  header.topbar{
+    background:var(--navy);
+    color:#EFEAE0;
+    padding:16px 28px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+    box-shadow: 0 4px 18px -6px rgba(19,40,64,.5);
+  }
+  .brand{ display:flex; align-items:center; gap:14px; }
+  .brand-mark{
+    width:38px; height:38px; border-radius:8px;
+    background: linear-gradient(155deg, var(--amber), #A97418);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Source Serif 4',serif; font-weight:700; color:var(--navy-deep); font-size:18px;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.25);
+  }
+  .brand-text .eyebrow{ font-size:11px; text-transform:uppercase; letter-spacing:.14em; color:#B8C4D2; margin-bottom:2px;}
+  .brand-text h1{ font-size:19px; color:#F7F5EF; }
+  .topbar-right{ display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+  .date-picker{ display:flex; align-items:center; gap:8px; font-size:12.5px; color:#CFD8E2; }
+  .date-picker input[type=date]{
+    background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.2); color:#F7F5EF;
+    border-radius:6px; padding:6px 9px; font-family:'Inter'; font-size:12.5px;
+  }
+  .date-picker .dia-tag{ font-weight:600; color:#F7F5EF; }
+  nav.tabs{ display:flex; gap:6px; background:rgba(255,255,255,.08); padding:4px; border-radius:999px; }
+  nav.tabs button{
+    border:none; background:transparent; color:#D9E1E8; padding:8px 18px; border-radius:999px;
+    font-family:'Inter'; font-size:13.5px; font-weight:600; cursor:pointer; transition:.18s ease;
+  }
+  nav.tabs button.active{ background:var(--paper-raised); color:var(--navy-deep); }
+  nav.tabs button:not(.active):hover{ color:#fff; }
+
+  main{ flex:1; padding:36px 28px 60px; max-width:1060px; margin:0 auto; width:100%; }
+
+  /* ===== LOADING / UPLOAD ===== */
+  .center-panel{
+    max-width:460px; margin:70px auto; background:var(--paper-raised);
+    border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow);
+    padding:32px; text-align:center;
+  }
+  .center-panel h2{ font-size:19px; color:var(--navy-deep); margin-bottom:8px; }
+  .center-panel p{ font-size:13px; color:var(--ink-soft); margin:0 0 18px; line-height:1.5; }
+  .spinner{
+    width:30px; height:30px; margin:0 auto 16px; border-radius:50%;
+    border:3px solid var(--line); border-top-color:var(--navy); animation:spin 0.8s linear infinite;
+  }
+  @keyframes spin{ to{ transform:rotate(360deg); } }
+  .file-drop{
+    border:1.5px dashed var(--line); border-radius:8px; padding:18px; font-size:13px; color:var(--ink-soft);
+    cursor:pointer; background:#FCFBF8;
+  }
+  .file-drop:hover{ border-color:var(--navy); }
+
+  /* ===== PUBLIC VIEW ===== */
+  .day-header{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:22px; flex-wrap:wrap; gap:10px;}
+  .day-header h2{ font-size:30px; color:var(--navy-deep); }
+  .day-header .fecha{ font-size:14px; color:var(--ink-soft); }
+  .day-header .fecha span{ font-weight:600; color:var(--ink); }
+  .no-lectivo{ padding:50px 20px; text-align:center; color:#9AA3AB; font-size:14px; font-style:italic; }
+
+  .hour-card{
+    background:var(--paper-raised); border:1px solid var(--line); border-radius:var(--radius);
+    box-shadow:var(--shadow); margin-bottom:14px; overflow:hidden;
+  }
+  .hour-card .hh{
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    padding:12px 20px; background:var(--navy-deep); color:#EFEAE0; flex-wrap:wrap;
+  }
+  .hour-card .hh .hora{ font-family:'JetBrains Mono',monospace; font-size:14px; font-weight:500; }
+  .hour-card .hh .pool{ font-size:12px; color:#B8C4D2; }
+  .hour-card .hh .pool strong{ color:#EFEAE0; font-weight:600; }
+  .hour-card .body{ padding:4px 0; }
+
+  .abs-row{
+    display:grid; grid-template-columns: 1.2fr 1.3fr 1.3fr;
+    align-items:center; padding:13px 20px; border-bottom:1px solid var(--line); gap:10px; font-size:13.5px;
+  }
+  .abs-row:last-child{ border-bottom:none; }
+  .abs-row .lbl{ font-size:10.5px; text-transform:uppercase; letter-spacing:.08em; color:#9AA3AB; display:block; margin-bottom:2px; }
+  .abs-row .aula{ color:var(--ink-soft); }
+  .badge{
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:13px; font-weight:600; padding:5px 11px; border-radius:7px;
+  }
+  .badge.cubierta{ background:var(--teal-soft); color:var(--teal); }
+  .badge.pendiente{ background:var(--coral-soft); color:var(--coral); }
+  .badge .dot{ width:6px; height:6px; border-radius:50%; background:currentColor; }
+  .empty-hour{ padding:14px 20px; color:#9AA3AB; font-style:italic; font-size:13.5px; }
+
+  .legend{ display:flex; gap:18px; margin-top:6px; font-size:12.5px; color:var(--ink-soft); flex-wrap:wrap; }
+  .legend .item{ display:flex; align-items:center; gap:6px; }
+  .legend .sw{ width:9px; height:9px; border-radius:2px; }
+
+  /* ===== ADMIN VIEW ===== */
+  .lock-panel{
+    max-width:380px; margin:60px auto; background:var(--paper-raised);
+    border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow);
+    padding:32px; text-align:center;
+  }
+  .lock-panel .stamp{
+    width:52px; height:52px; margin:0 auto 16px; border-radius:50%;
+    border:2px solid var(--navy); display:flex; align-items:center; justify-content:center;
+    color:var(--navy); font-family:'Source Serif 4',serif; font-weight:700; font-size:20px;
+  }
+  .lock-panel h2{ font-size:20px; margin-bottom:6px; color:var(--navy-deep); }
+  .lock-panel p{ font-size:13px; color:var(--ink-soft); margin:0 0 20px; }
+  input[type=password], input[type=date], select, input[type=text], input[type=search]{
+    width:100%; padding:11px 13px; border:1px solid var(--line); border-radius:8px;
+    font-family:'Inter'; font-size:14px; background:#FCFBF8; color:var(--ink);
+  }
+  input:focus, select:focus{ outline:2px solid var(--amber); outline-offset:1px; border-color:var(--amber); }
+  .btn{
+    border:none; border-radius:8px; padding:10px 16px; font-family:'Inter'; font-weight:600;
+    font-size:13.5px; cursor:pointer; transition:.15s ease;
+  }
+  .btn-primary{ background:var(--navy); color:#fff; }
+  .btn-primary:hover{ background:var(--navy-deep); }
+  .btn-primary:disabled{ background:#B9C2CB; cursor:not-allowed; }
+  .btn-ghost{ background:transparent; color:var(--navy); border:1px solid var(--line); }
+  .btn-ghost:hover{ border-color:var(--navy); }
+  .btn-danger{ background:transparent; color:var(--coral); border:1px solid var(--coral-soft); padding:6px 10px; font-size:12px; }
+  .btn-danger:hover{ background:var(--coral-soft); }
+  .btn-block{ width:100%; margin-top:14px; }
+  .err{ color:var(--coral); font-size:12.5px; margin-top:8px; min-height:16px; }
+
+  .admin-grid{ display:grid; grid-template-columns: .95fr 1.05fr; gap:22px; align-items:start; }
+  @media(max-width:820px){ .admin-grid{ grid-template-columns:1fr; } }
+
+  .panel{
+    background:var(--paper-raised); border:1px solid var(--line); border-radius:var(--radius);
+    box-shadow:var(--shadow); padding:22px 24px; margin-bottom:20px;
+  }
+  .panel h3{ font-size:16px; color:var(--navy-deep); margin-bottom:4px; }
+  .panel .sub{ font-size:12.5px; color:var(--ink-soft); margin-bottom:16px; }
+  .field{ margin-bottom:14px; }
+  .field label{ display:block; font-size:12px; font-weight:600; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }
+
+  .search-box{ margin-bottom:10px; }
+  .check-list{ display:flex; flex-direction:column; gap:0; border:1px solid var(--line); border-radius:8px; overflow:hidden; max-height:260px; overflow-y:auto; }
+  .check-item{ display:flex; align-items:center; gap:10px; padding:9px 12px; font-size:13.5px; border-bottom:1px solid var(--line); background:#FCFBF8; }
+  .check-item:last-child{ border-bottom:none; }
+  .check-item input{ width:auto; accent-color:var(--navy); }
+  .check-item .dep{ margin-left:auto; font-size:11px; color:#9AA3AB; }
+  .check-count{ font-size:12px; color:var(--ink-soft); margin-top:8px; }
+
+  .manual-add{ display:grid; grid-template-columns:1fr 1fr auto; gap:8px; align-items:end; margin-top:6px; }
+  .manual-add .field{ margin-bottom:0; }
+
+  .assign-row{
+    display:grid; grid-template-columns: 100px 1fr 1fr auto; align-items:center; gap:8px;
+    padding:11px 12px; border:1px solid var(--line); border-radius:8px; margin-bottom:8px;
+    font-size:13px; background:#FCFBF8;
+  }
+  .assign-row .hora{ font-family:'JetBrains Mono'; color:var(--navy); font-weight:500; font-size:12px; }
+  .assign-row .who{ line-height:1.35; }
+  .assign-row .who small{ color:var(--ink-soft); display:block; font-size:11px; }
+  .assign-row select{ padding:7px 9px; font-size:12.5px; }
+
+  .toolbar{ display:flex; gap:10px; margin-top:6px; flex-wrap:wrap; }
+  .toast{
+    position:fixed; bottom:24px; left:50%; transform:translateX(-50%) translateY(20px);
+    background:var(--navy-deep); color:#fff; padding:12px 20px; border-radius:8px; font-size:13.5px;
+    box-shadow:0 8px 24px rgba(0,0,0,.25); opacity:0; pointer-events:none; transition:.25s ease; z-index:50;
+    max-width:90vw;
+  }
+  .toast.show{ opacity:1; transform:translateX(-50%) translateY(0); }
+
+  .exchange-note{
+    background:var(--amber-soft); border:1px solid #E3C784; color:#7A5C13;
+    padding:10px 14px; border-radius:8px; font-size:12.5px; margin-top:14px;
+  }
+  .empty-note{ color:#9AA3AB; font-size:13px; font-style:italic; padding:8px 2px; }
+  .meta-line{ font-size:11.5px; color:#9AA3AB; margin-top:10px; }
+  footer{ text-align:center; padding:20px; font-size:11.5px; color:#9AA3AB; }
+  .visually-hidden{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">G</div>
+      <div class="brand-text">
+        <div class="eyebrow">IES Vía de la Plata · Guijuelo</div>
+        <h1>Parte de Guardias</h1>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="date-picker">
+        <input type="date" id="selectorFecha">
+        <span class="dia-tag" id="etiquetaDia"></span>
+      </div>
+      <nav class="tabs">
+        <button id="tab-public" class="active" onclick="location.hash='#public'">Vista pública</button>
+        <button id="tab-admin" onclick="location.hash='#admin'">Jefatura de Estudios</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer>Horario cargado desde <code>horarios.json</code> · Las ausencias del día se guardan en este navegador</footer>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* =========================================================
+   FUENTE DE VERDAD: horarios.json (horario real de cada profesor)
+   Estructura esperada:
+   {
+     "profesores": {
+       "APELLIDOS NOMBRE": {
+         "departamento": "...",
+         "horario": {
+           "Lunes": { "08:30 - 09:20": {"tipo":"clase|guardia|reunion|", "asignatura":"...", "aula":"..."}, ... },
+           "Martes": {...}, "Miércoles": {...}, "Jueves": {...}, "Viernes": {...}
+         }
+       }, ...
+     }
+   }
+
+   El sistema NO guarda ni modifica horarios.json: solo lo lee para saber,
+   hora a hora, quién tiene clase y quién está de guardia. Lo único que se
+   guarda en este navegador son las AUSENCIAS que registra Jefatura cada día.
+========================================================= */
+
+const MASTER_URL = 'horarios.json';
+const MASTER_CACHE_KEY = 'guardias_master_cache_v1';
+const ESTADO_KEY = 'guardias_estado_v3';
+const ADMIN_PASS = 'admin2025';
+const ADMIN_SESSION_KEY = 'guardias_admin_ok';
+const DIAS_SEMANA = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+const DIAS_LECTIVOS = ['Lunes','Martes','Miércoles','Jueves','Viernes'];
+
+let MASTER = null;   // { profesores: {...} }
+let ESTADO = null;   // { fecha, ausenciasPorFecha: { 'YYYY-MM-DD': [...] } }
+
+/* ===================== CARGA DE DATOS ===================== */
+function loadEstado(){
+  try{
+    const raw = localStorage.getItem(ESTADO_KEY);
+    if(raw) return JSON.parse(raw);
+  }catch(e){ console.warn(e); }
+  return { fecha: hoyISO(), ausenciasPorFecha: {} };
+}
+function saveEstado(){ localStorage.setItem(ESTADO_KEY, JSON.stringify(ESTADO)); }
+
+function hoyISO(){
+  const d = new Date();
+  return d.toISOString().slice(0,10);
+}
+
+async function fetchMaster(){
+  try{
+    const resp = await fetch(MASTER_URL, { cache: 'no-store' });
+    if(!resp.ok) throw new Error('HTTP ' + resp.status);
+    const json = await resp.json();
+    if(!json.profesores) throw new Error('El JSON no tiene la clave "profesores"');
+    localStorage.setItem(MASTER_CACHE_KEY, JSON.stringify(json));
+    return json;
+  }catch(e){
+    console.warn('No se pudo cargar horarios.json vía fetch():', e);
+    try{
+      const cached = localStorage.getItem(MASTER_CACHE_KEY);
+      if(cached) return JSON.parse(cached);
+    }catch(e2){ /* ignore */ }
+    return null;
+  }
+}
+
+/* ===================== ARRANQUE ===================== */
+async function boot(){
+  ESTADO = loadEstado();
+  document.getElementById('selectorFecha').value = ESTADO.fecha;
+  renderLoading();
+  MASTER = await fetchMaster();
+  if(!MASTER){ renderNeedUpload(); return; }
+  wireGlobalControls();
+  render();
+}
+
+function renderLoading(){
+  document.getElementById('app').innerHTML = `
+    <div class="center-panel">
+      <div class="spinner"></div>
+      <h2>Cargando horarios.json…</h2>
+      <p>Leyendo el horario del centro para calcular quién está de guardia cada hora.</p>
+    </div>`;
+}
+
+function renderNeedUpload(){
+  document.getElementById('app').innerHTML = `
+    <div class="center-panel">
+      <h2>No se ha podido cargar horarios.json</h2>
+      <p>Si estás abriendo este archivo directamente desde tu ordenador (doble clic), el navegador bloquea la lectura automática por seguridad. Sube el archivo manualmente aquí, o publica esta carpeta en GitHub Pages / un servidor local para que se cargue solo.</p>
+      <label class="file-drop">
+        📄 Seleccionar horarios.json
+        <input type="file" accept="application/json" class="visually-hidden" onchange="handleManualMaster(event)">
+      </label>
+    </div>`;
+}
+
+function handleManualMaster(evt){
+  const file = evt.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try{
+      const json = JSON.parse(e.target.result);
+      if(!json.profesores) throw new Error('Sin clave "profesores"');
+      MASTER = json;
+      localStorage.setItem(MASTER_CACHE_KEY, JSON.stringify(json));
+      wireGlobalControls();
+      render();
+      toast('horarios.json cargado correctamente.');
+    }catch(err){
+      alert('El archivo no tiene el formato esperado (debe tener una clave "profesores").');
+    }
+  };
+  reader.readAsText(file);
+}
+
+function wireGlobalControls(){
+  const sel = document.getElementById('selectorFecha');
+  sel.addEventListener('change', () => {
+    ESTADO.fecha = sel.value;
+    saveEstado();
+    render();
+  });
+}
+
+/* ===================== UTIL ===================== */
+function toast(msg){
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toast._h);
+  toast._h = setTimeout(()=>t.classList.remove('show'), 2800);
+}
+function esc(s){
+  return (s ?? '').toString().replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function nextId(lista){ return (lista.reduce((m,a)=>Math.max(m,a.id||0),0)) + 1; }
+
+function diaSemanaDeFecha(fechaISO){
+  const d = new Date(fechaISO + 'T00:00:00');
+  return DIAS_SEMANA[d.getDay()];
+}
+function fechaBonita(fechaISO){
+  const d = new Date(fechaISO + 'T00:00:00');
+  return d.toLocaleDateString('es-ES', { day:'2-digit', month:'long', year:'numeric' });
+}
+function getHorasDelDia(dia){
+  const set = new Set();
+  Object.values(MASTER.profesores).forEach(p => {
+    const jornada = p.horario && p.horario[dia];
+    if(jornada) Object.keys(jornada).forEach(h => set.add(h));
+  });
+  return [...set].sort((a,b) => a.split(' - ')[0].localeCompare(b.split(' - ')[0]));
+}
+function getAusenciasHoy(){
+  if(!ESTADO.ausenciasPorFecha[ESTADO.fecha]) ESTADO.ausenciasPorFecha[ESTADO.fecha] = [];
+  return ESTADO.ausenciasPorFecha[ESTADO.fecha];
+}
+
+/* ===================== ROUTER ===================== */
+function currentRoute(){
+  const h = location.hash.replace('#','') || 'public';
+  return h === 'admin' ? 'admin' : 'public';
+}
+function render(){
+  const route = currentRoute();
+  document.getElementById('tab-public').classList.toggle('active', route === 'public');
+  document.getElementById('tab-admin').classList.toggle('active', route === 'admin');
+  document.getElementById('etiquetaDia').textContent = diaSemanaDeFecha(ESTADO.fecha);
+  document.getElementById('app').innerHTML = route === 'public' ? renderPublic() : renderAdminShell();
+}
+window.addEventListener('hashchange', render);
+
+/* ===================== LÓGICA: profesores de guardia por hora ===================== */
+function profesoresDeGuardiaEnHora(dia, horaLabel){
+  return Object.keys(MASTER.profesores).filter(nombre => {
+    const jornada = MASTER.profesores[nombre].horario[dia];
+    const slot = jornada && jornada[horaLabel];
+    return slot && slot.tipo === 'guardia';
+  });
+}
+function guardiasDisponiblesEnHora(dia, horaLabel, excluirAusenciaId){
+  const pool = profesoresDeGuardiaEnHora(dia, horaLabel);
+  const ausenciasHoy = getAusenciasHoy();
+  const ocupados = new Set(
+    ausenciasHoy
+      .filter(a => a.horaLabel === horaLabel && a.id !== excluirAusenciaId && a.guardia_asignada)
+      .map(a => a.guardia_asignada)
+  );
+  return pool.filter(p => !ocupados.has(p));
+}
+
+/* ===================== VISTA PÚBLICA ===================== */
+function renderPublic(){
+  const dia = diaSemanaDeFecha(ESTADO.fecha);
+  if(!DIAS_LECTIVOS.includes(dia)){
+    return `
+      <div class="day-header">
+        <h2>${esc(dia)}</h2>
+        <div class="fecha">Fecha: <span>${esc(fechaBonita(ESTADO.fecha))}</span></div>
+      </div>
+      <div class="no-lectivo">No hay horario lectivo este día.</div>`;
+  }
+
+  const horas = getHorasDelDia(dia);
+  const ausenciasHoy = getAusenciasHoy();
+
+  const cards = horas.map(horaLabel => {
+    const pool = profesoresDeGuardiaEnHora(dia, horaLabel);
+    const lineas = ausenciasHoy.filter(a => a.horaLabel === horaLabel);
+
+    const poolText = pool.length
+      ? `Guardia disponible: <strong>${pool.map(esc).join(', ')}</strong>`
+      : `<span style="color:#8C97A3">Sin profesores de guardia esta hora</span>`;
+
+    let body;
+    if(lineas.length === 0){
+      body = `<div class="empty-hour">Sin incidencias registradas</div>`;
+    } else {
+      body = lineas.map(a => {
+        const badge = a.guardia_asignada
+          ? `<span class="badge cubierta"><span class="dot"></span>${esc(a.guardia_asignada)}</span>`
+          : `<span class="badge pendiente"><span class="dot"></span>Guardia pendiente</span>`;
+        return `
+          <div class="abs-row">
+            <div><span class="lbl">Aula</span>${esc(a.aula || '—')}${a.asignatura ? ' <span style="color:#9AA3AB">· '+esc(a.asignatura)+'</span>' : ''}</div>
+            <div><span class="lbl">Ausencia</span>${esc(a.profesor)}</div>
+            <div><span class="lbl">Guardia</span>${badge}</div>
+          </div>`;
+      }).join('');
+    }
+
+    return `
+      <div class="hour-card">
+        <div class="hh">
+          <div class="hora">${esc(horaLabel)}</div>
+          <div class="pool">${poolText}</div>
+        </div>
+        <div class="body">${body}</div>
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="day-header">
+      <h2>${esc(dia)}</h2>
+      <div class="fecha">Fecha: <span>${esc(fechaBonita(ESTADO.fecha))}</span></div>
+    </div>
+    ${cards}
+    <div class="legend">
+      <div class="item"><span class="sw" style="background:var(--teal)"></span> Guardia cubierta</div>
+      <div class="item"><span class="sw" style="background:var(--coral)"></span> Guardia pendiente de asignar</div>
+    </div>
+  `;
+}
+
+/* ===================== VISTA ADMIN ===================== */
+function isAdminUnlocked(){ return sessionStorage.getItem(ADMIN_SESSION_KEY) === '1'; }
+function renderAdminShell(){ return isAdminUnlocked() ? renderAdminPanel() : renderLock(); }
+
+function renderLock(){
+  return `
+    <div class="lock-panel">
+      <div class="stamp">JE</div>
+      <h2>Acceso Jefatura</h2>
+      <p>Introduce la contraseña para gestionar las ausencias del día.</p>
+      <input type="password" id="adminPass" placeholder="Contraseña" autocomplete="off" onkeydown="if(event.key==='Enter')tryUnlock()">
+      <button class="btn btn-primary btn-block" onclick="tryUnlock()">Entrar</button>
+      <div class="err" id="lockErr"></div>
+    </div>`;
+}
+function tryUnlock(){
+  const val = document.getElementById('adminPass').value;
+  if(val === ADMIN_PASS){ sessionStorage.setItem(ADMIN_SESSION_KEY, '1'); render(); }
+  else document.getElementById('lockErr').textContent = 'Contraseña incorrecta.';
+}
+function logout(){ sessionStorage.removeItem(ADMIN_SESSION_KEY); render(); }
+
+function renderAdminPanel(){
+  const dia = diaSemanaDeFecha(ESTADO.fecha);
+  if(!DIAS_LECTIVOS.includes(dia)){
+    return `<div class="panel"><h3>Sin horario lectivo</h3><div class="sub">La fecha seleccionada (${esc(dia)}) no tiene clases. Elige un día de Lunes a Viernes en el calendario de arriba.</div></div>`;
+  }
+
+  const horas = getHorasDelDia(dia);
+  const nombres = Object.keys(MASTER.profesores).sort((a,b)=>a.localeCompare(b,'es'));
+
+  const checkList = nombres.map(nombre => `
+    <label class="check-item" data-nombre="${esc(nombre.toLowerCase())}">
+      <input type="checkbox" name="profAusente" value="${esc(nombre)}">
+      ${esc(formatearNombre(nombre))}
+      <span class="dep">${esc(MASTER.profesores[nombre].departamento || '')}</span>
+    </label>`).join('');
+
+  const horaOptions = horas.map(h=>`<option value="${esc(h)}">${esc(h)}</option>`).join('');
+  const profOptions = nombres.map(n=>`<option value="${esc(n)}">${esc(formatearNombre(n))}</option>`).join('');
+
+  const ausenciasHoy = getAusenciasHoy();
+  const ausenciasOrdenadas = [...ausenciasHoy].sort((a,b) => horas.indexOf(a.horaLabel) - horas.indexOf(b.horaLabel));
+  const listaAusencias = ausenciasOrdenadas.length === 0
+    ? `<div class="empty-note">No hay ausencias registradas para el ${esc(fechaBonita(ESTADO.fecha))}.</div>`
+    : ausenciasOrdenadas.map(a => {
+        const disponibles = guardiasDisponiblesEnHora(dia, a.horaLabel, a.id);
+        const opciones = ['<option value="">— sin asignar —</option>']
+          .concat(
+            (a.guardia_asignada && !disponibles.includes(a.guardia_asignada) ? [a.guardia_asignada] : [])
+              .concat(disponibles)
+              .map(p => `<option value="${esc(p)}" ${a.guardia_asignada===p?'selected':''}>${esc(formatearNombre(p))}</option>`)
+          ).join('');
+        return `
+          <div class="assign-row">
+            <div class="hora">${esc(a.horaLabel)}</div>
+            <div class="who">${esc(formatearNombre(a.profesor))}<small>${esc(a.aula || 'sin aula')}${a.asignatura ? ' · '+esc(a.asignatura) : ''}</small></div>
+            <select onchange="cambiarGuardiaManual(${a.id}, this.value)">${opciones}</select>
+            <button class="btn-danger" onclick="eliminarAusencia(${a.id})" title="Eliminar línea">✕</button>
+          </div>`;
+      }).join('');
+
+  return `
+    <div class="admin-grid">
+      <div>
+        <div class="panel">
+          <h3>Comunicar ausencias de hoy</h3>
+          <div class="sub">Marca los profesores que han avisado. Se generará automáticamente una línea de guardia por cada hora de clase que tengan hoy, asignando al primer profesor de guardia disponible en cada una.</div>
+          <div class="field search-box">
+            <input type="search" id="buscarProf" placeholder="Buscar profesor…" oninput="filtrarChecklist()">
+          </div>
+          <div class="check-list" id="checkList">${checkList}</div>
+          <div class="check-count" id="checkCount"></div>
+          <button class="btn btn-primary btn-block" onclick="registrarAusenciasDelDia()">Registrar ausencia(s) y asignar guardias</button>
+          <div class="exchange-note">
+            Solo se generan líneas en las horas donde el profesor tiene clase. Las horas en que ya está de guardia, en reunión o libre no generan línea.
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Añadir línea manual</h3>
+          <div class="sub">Para una ausencia puntual de una sola hora.</div>
+          <div class="manual-add">
+            <div class="field"><label>Profesor</label><select id="manualProf">${profOptions}</select></div>
+            <div class="field"><label>Hora</label><select id="manualHora">${horaOptions}</select></div>
+            <button class="btn btn-ghost" onclick="registrarAusenciaManual()">Añadir</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Datos</h3>
+          <div class="toolbar">
+            <button class="btn btn-ghost" onclick="exportEstado()">⬇ Exportar parte del día</button>
+            <label class="btn btn-ghost" style="cursor:pointer;">
+              ⬆ Importar parte del día
+              <input type="file" accept="application/json" class="visually-hidden" onchange="importEstado(event)">
+            </label>
+            <button class="btn btn-ghost" onclick="recargarMaster()">↻ Recargar horarios.json</button>
+            <button class="btn btn-ghost" onclick="resetDay()">↺ Vaciar parte de hoy</button>
+            <button class="btn btn-ghost" onclick="logout()">Cerrar sesión</button>
+          </div>
+          <div class="meta-line">${nombres.length} profesores cargados desde horarios.json.</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Parte de guardias — ${esc(fechaBonita(ESTADO.fecha))}</h3>
+        <div class="sub">Reasigna manualmente o elimina una línea. Los cambios se reflejan al instante en la vista pública.</div>
+        ${listaAusencias}
+      </div>
+    </div>
+  `;
+}
+
+function formatearNombre(nombreCompleto){
+  // "APELLIDOS NOMBRE" -> capitaliza de forma legible manteniendo el orden original
+  return nombreCompleto.split(' ').map(w => w.length ? w[0] + w.slice(1).toLowerCase() : w).join(' ');
+}
+
+function filtrarChecklist(){
+  const q = document.getElementById('buscarProf').value.trim().toLowerCase();
+  const items = document.querySelectorAll('#checkList .check-item');
+  let visibles = 0;
+  items.forEach(it => {
+    const match = it.dataset.nombre.includes(q);
+    it.style.display = match ? '' : 'none';
+    if(match) visibles++;
+  });
+  document.getElementById('checkCount').textContent = q ? `${visibles} coincidencia(s)` : '';
+}
+
+/* ===================== ACCIONES ===================== */
+function crearLineaAusencia(profesor, dia, horaLabel){
+  const ausenciasHoy = getAusenciasHoy();
+  const yaExiste = ausenciasHoy.some(a => a.profesor === profesor && a.horaLabel === horaLabel);
+  if(yaExiste) return { creada:false, motivo:'ya-existe' };
+
+  const jornada = MASTER.profesores[profesor] && MASTER.profesores[profesor].horario[dia];
+  const slot = jornada && jornada[horaLabel];
+  if(!slot || slot.tipo !== 'clase') return { creada:false, motivo:'sin-clase' };
+
+  const disponibles = guardiasDisponiblesEnHora(dia, horaLabel, null).filter(p => p !== profesor);
+  const guardia = disponibles[0] || null;
+
+  ausenciasHoy.push({
+    id: nextId(ausenciasHoy),
+    profesor,
+    horaLabel,
+    asignatura: slot.asignatura || null,
+    aula: slot.aula || null,
+    guardia_asignada: guardia
+  });
+  return { creada:true, guardia };
+}
+
+function registrarAusenciasDelDia(){
+  const dia = diaSemanaDeFecha(ESTADO.fecha);
+  const checks = [...document.querySelectorAll('input[name="profAusente"]:checked')].map(c => c.value);
+  if(checks.length === 0){ toast('Selecciona al menos un profesor.'); return; }
+
+  const horas = getHorasDelDia(dia);
+  let lineasCreadas = 0, sinCobertura = 0;
+  checks.forEach(profesor => {
+    horas.forEach(horaLabel => {
+      const r = crearLineaAusencia(profesor, dia, horaLabel);
+      if(r.creada){ lineasCreadas++; if(!r.guardia) sinCobertura++; }
+    });
+  });
+
+  saveEstado();
+  render();
+  if(lineasCreadas === 0){
+    toast('Esos profesores no tenían clases hoy o ya estaban registrados.');
+  } else {
+    toast(`${lineasCreadas} línea(s) de guardia generada(s)${sinCobertura ? `, ${sinCobertura} sin cobertura disponible` : ''}.`);
+  }
+}
+
+function registrarAusenciaManual(){
+  const dia = diaSemanaDeFecha(ESTADO.fecha);
+  const profesor = document.getElementById('manualProf').value;
+  const horaLabel = document.getElementById('manualHora').value;
+  const r = crearLineaAusencia(profesor, dia, horaLabel);
+  if(!r.creada){
+    toast(r.motivo === 'ya-existe' ? 'Esa línea ya existe.' : 'Ese profesor no tiene clase a esa hora.');
+    return;
+  }
+  saveEstado();
+  render();
+  toast(r.guardia ? `Línea añadida. Guardia: ${formatearNombre(r.guardia)}.` : 'Línea añadida, sin guardia disponible esa hora.');
+}
+
+function cambiarGuardiaManual(id, valor){
+  const ausenciasHoy = getAusenciasHoy();
+  const a = ausenciasHoy.find(x => x.id === id);
+  if(!a) return;
+  a.guardia_asignada = valor || null;
+  saveEstado();
+  render();
+  toast('Guardia actualizada.');
+}
+
+function eliminarAusencia(id){
+  ESTADO.ausenciasPorFecha[ESTADO.fecha] = getAusenciasHoy().filter(a => a.id !== id);
+  saveEstado();
+  render();
+  toast('Línea eliminada.');
+}
+
+function resetDay(){
+  if(!confirm('¿Vaciar todas las líneas del parte de guardias de hoy?')) return;
+  ESTADO.ausenciasPorFecha[ESTADO.fecha] = [];
+  saveEstado();
+  render();
+  toast('Parte vaciado.');
+}
+
+async function recargarMaster(){
+  toast('Recargando horarios.json…');
+  const fresh = await fetchMaster();
+  if(fresh){ MASTER = fresh; render(); toast('horarios.json actualizado.'); }
+  else toast('No se pudo recargar horarios.json.');
+}
+
+/* ===================== EXPORT / IMPORT DEL PARTE (no del horario maestro) ===================== */
+function exportEstado(){
+  const blob = new Blob([JSON.stringify(ESTADO, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `parte_guardias_${ESTADO.fecha}.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+  toast('Parte exportado.');
+}
+
+function importEstado(evt){
+  const file = evt.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try{
+      const parsed = JSON.parse(e.target.result);
+      if(!parsed.fecha || !parsed.ausenciasPorFecha) throw new Error('Formato no válido');
+      ESTADO = parsed;
+      document.getElementById('selectorFecha').value = ESTADO.fecha;
+      saveEstado();
+      render();
+      toast('Parte importado correctamente.');
+    }catch(err){
+      toast('Error al importar: el archivo no tiene el formato esperado.');
+    }
+    evt.target.value = '';
+  };
+  reader.readAsText(file);
+}
+
+/* ===================== INIT ===================== */
+if(!location.hash) location.hash = '#public';
+boot();
+</script>
+</body>
+</html>
