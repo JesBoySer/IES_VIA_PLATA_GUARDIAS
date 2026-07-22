@@ -139,6 +139,13 @@
   .badge .dot{ width:6px; height:6px; border-radius:50%; background:currentColor; }
   .empty-hour{ padding:14px 20px; color:#9AA3AB; font-style:italic; font-size:13.5px; }
 
+  select.guardia-select{
+    width:auto; max-width:100%; padding:6px 10px; font-size:13px; font-weight:600;
+    border-radius:7px; cursor:pointer;
+  }
+  select.guardia-select.is-pendiente{ background:var(--coral-soft); color:var(--coral); border-color:#E3BEB6; }
+  select.guardia-select.is-cubierta{ background:var(--teal-soft); color:var(--teal); border-color:#B9D6D2; }
+
   .legend{ display:flex; gap:18px; margin-top:6px; font-size:12.5px; color:var(--ink-soft); flex-wrap:wrap; }
   .legend .item{ display:flex; align-items:center; gap:6px; }
   .legend .sw{ width:9px; height:9px; border-radius:2px; }
@@ -478,14 +485,19 @@ function renderPublic(){
       body = `<div class="empty-hour">Sin incidencias registradas</div>`;
     } else {
       body = lineas.map(a => {
-        const badge = a.guardia_asignada
-          ? `<span class="badge cubierta"><span class="dot"></span>${esc(a.guardia_asignada)}</span>`
-          : `<span class="badge pendiente"><span class="dot"></span>Guardia pendiente</span>`;
+        const disponibles = guardiasDisponiblesEnHora(dia, horaLabel, a.id);
+        const opciones = ['<option value="">— seleccionar —</option>']
+          .concat(
+            (a.guardia_asignada && !disponibles.includes(a.guardia_asignada) ? [a.guardia_asignada] : [])
+              .concat(disponibles)
+              .map(p => `<option value="${esc(p)}" ${a.guardia_asignada===p?'selected':''}>${esc(formatearNombre(p))}</option>`)
+          ).join('');
+        const selector = `<select class="guardia-select ${a.guardia_asignada ? 'is-cubierta' : 'is-pendiente'}" onchange="asignarGuardiaPublico(${a.id}, this.value)">${opciones}</select>`;
         return `
           <div class="abs-row">
             <div><span class="lbl">Aula</span>${esc(a.aula || '—')}${a.asignatura ? ' <span style="color:#9AA3AB">· '+esc(a.asignatura)+'</span>' : ''}</div>
-            <div><span class="lbl">Ausencia</span>${esc(a.profesor)}</div>
-            <div><span class="lbl">Guardia</span>${badge}</div>
+            <div><span class="lbl">Ausencia</span>${esc(formatearNombre(a.profesor))}</div>
+            <div><span class="lbl">Guardia</span>${selector}</div>
           </div>`;
       }).join('');
     }
@@ -511,6 +523,16 @@ function renderPublic(){
       <div class="item"><span class="sw" style="background:var(--coral)"></span> Guardia pendiente de asignar</div>
     </div>
   `;
+}
+
+function asignarGuardiaPublico(id, valor){
+  const ausenciasHoy = getAusenciasHoy();
+  const a = ausenciasHoy.find(x => x.id === id);
+  if(!a) return;
+  a.guardia_asignada = valor || null;
+  saveEstado();
+  render();
+  toast(valor ? `Guardia asignada a ${formatearNombre(valor)}.` : 'Asignación retirada.');
 }
 
 /* ===================== VISTA ADMIN ===================== */
@@ -580,7 +602,7 @@ function renderAdminPanel(){
       <div>
         <div class="panel">
           <h3>Comunicar ausencias de hoy</h3>
-          <div class="sub">Marca los profesores que han avisado. Se generará automáticamente una línea de guardia por cada hora de clase que tengan hoy, asignando al primer profesor de guardia disponible en cada una.</div>
+          <div class="sub">Marca los profesores que han avisado. Se generará una línea por cada hora de clase que tengan hoy, pendiente de que se asigne quién la cubre.</div>
           <div class="field search-box">
             <input type="search" id="buscarProf" placeholder="Buscar profesor…" oninput="filtrarChecklist()">
           </div>
@@ -588,7 +610,7 @@ function renderAdminPanel(){
           <div class="check-count" id="checkCount"></div>
           <button class="btn btn-primary btn-block" onclick="registrarAusenciasDelDia()">Registrar ausencia(s) y asignar guardias</button>
           <div class="exchange-note">
-            Solo se generan líneas en las horas donde el profesor tiene clase. Las horas en que ya está de guardia, en reunión o libre no generan línea.
+            Solo se generan líneas en las horas donde el profesor tiene clase (no en las que ya está de guardia, en reunión o libre). Las líneas quedan pendientes: se asignan después, desde este panel o desde la vista pública.
           </div>
         </div>
 
@@ -654,18 +676,15 @@ function crearLineaAusencia(profesor, dia, horaLabel){
   const slot = jornada && jornada[horaLabel];
   if(!slot || slot.tipo !== 'clase') return { creada:false, motivo:'sin-clase' };
 
-  const disponibles = guardiasDisponiblesEnHora(dia, horaLabel, null).filter(p => p !== profesor);
-  const guardia = disponibles[0] || null;
-
   ausenciasHoy.push({
     id: nextId(ausenciasHoy),
     profesor,
     horaLabel,
     asignatura: slot.asignatura || null,
     aula: slot.aula || null,
-    guardia_asignada: guardia
+    guardia_asignada: null
   });
-  return { creada:true, guardia };
+  return { creada:true };
 }
 
 function registrarAusenciasDelDia(){
@@ -674,11 +693,11 @@ function registrarAusenciasDelDia(){
   if(checks.length === 0){ toast('Selecciona al menos un profesor.'); return; }
 
   const horas = getHorasDelDia(dia);
-  let lineasCreadas = 0, sinCobertura = 0;
+  let lineasCreadas = 0;
   checks.forEach(profesor => {
     horas.forEach(horaLabel => {
       const r = crearLineaAusencia(profesor, dia, horaLabel);
-      if(r.creada){ lineasCreadas++; if(!r.guardia) sinCobertura++; }
+      if(r.creada) lineasCreadas++;
     });
   });
 
@@ -687,7 +706,7 @@ function registrarAusenciasDelDia(){
   if(lineasCreadas === 0){
     toast('Esos profesores no tenían clases hoy o ya estaban registrados.');
   } else {
-    toast(`${lineasCreadas} línea(s) de guardia generada(s)${sinCobertura ? `, ${sinCobertura} sin cobertura disponible` : ''}.`);
+    toast(`${lineasCreadas} línea(s) creada(s), pendientes de asignar guardia.`);
   }
 }
 
@@ -702,7 +721,7 @@ function registrarAusenciaManual(){
   }
   saveEstado();
   render();
-  toast(r.guardia ? `Línea añadida. Guardia: ${formatearNombre(r.guardia)}.` : 'Línea añadida, sin guardia disponible esa hora.');
+  toast('Línea añadida, pendiente de asignar guardia.');
 }
 
 function cambiarGuardiaManual(id, valor){
